@@ -25,8 +25,8 @@ body {
 }
 
 #navcon{
-  -webkit-transition: background-color 0.4s;
-  transition: background-color 0.4s;
+  -webkit-transition: background-color 0.2s;
+  transition: background-color 0.2s;
   border-radius: 5px;
   font-weight: 700;
 }
@@ -75,6 +75,8 @@ b#icone{
   -webkit-transition: border-color 0.3s;
   transition: border-color 0.3s;
   background-color: white;
+  color: black;
+  font-weight: bold;
 }
 
 .namebox:hover{
@@ -100,6 +102,12 @@ b#icone{
   position: absolute;
   right: 5px;
   top: 5px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.txt:hover .lixeira{
+  opacity: 1;
 }
 
 #textos{
@@ -303,6 +311,10 @@ h5{
 
 .txt-original{
   color: gray;
+}
+
+#nome{
+  font-weight: bold;
 }
 
 .two-read{
