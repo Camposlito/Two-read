@@ -6,10 +6,12 @@
   <div class="icons-ini i1">
     <p>Bem vindo ao seu site de tradução e aprendizado em inglês</p>
     <br><br>
-    <p>Saiba mais &nbsp;<span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span></p>
+    <p>Saiba mais &nbsp; <span class="glyphicon glyphicon-chevron-down clique" aria-hidden="true"></span></p>
   </div>
   <br><br><br>
 </div>
+<div id="alvo"></div>
+<br><br>
 <div class="container" onselectstart='return false'>
   <div class="container">
     <div class="row">
@@ -23,7 +25,7 @@
     </div>
   </div>
   <br><br><br>
-  <div class="row bg-fb">
+  <div class="row">
 <br><br>
     <div class="col-sm-6 pd-top">
       <h3 class="bar-l fl text-intro">Ver séries sem legendas. Ler livros inteiros em outro idioma. Conversar com pessoas de outros países.
@@ -65,4 +67,14 @@ function normalImg(id) {
   var x = document.getElementById(id);
   x.style = "transition: .2s; transform: scale(1);";
 }
+
+$(document).ready(function() {
+
+  $('.clique').click(function() {
+    $('html, body').animate({
+      scrollTop: $('#alvo').offset().top
+    }, 1000);
+  });
+
+});
 </script>

@@ -88,9 +88,10 @@ function divTextos($id_user){
       echo $row["id_txt"];
       echo '"> ';
       echo '        <button type="submit" class="namebox"> ';
-      echo '          <div class="txtimg" style="background-color: ';
+      echo '          <div class="txtimg-color" style="background-color: ';
       echo random_color();
       echo '"></div> ';
+      echo '          <div class="txtimg"></div> ';
       echo $row["nome_txt"];
       echo '        </button> ';
       echo '      </form> ';
