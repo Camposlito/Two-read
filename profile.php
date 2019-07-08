@@ -9,7 +9,7 @@
     <?php divTextos($_SESSION["id_user"]); ?>
   </div>
   <div id="newbtn">
-    <button title="Adicionar texto" type="button" class="btn btn-default btn-lg" id="btnplus" data-toggle="modal" data-target="#addTxt">
+    <button type="button" class="btn btn-default btn-lg" id="btnplus" data-toggle="modal" data-target="#addTxt">
       <span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span> Novo Texto
     </button>
   </div>

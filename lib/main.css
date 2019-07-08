@@ -52,22 +52,11 @@ b#icone{
   padding-top: 9px;
 }
 
+
 .txtimg{
   width: 175px;
   height: 175px;
   border-radius: 5px;
-  background-image: url(icons/icon-arq.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  opacity: 0.3;
-}
-
-.txtimg-color{
-  width: 175px;
-  height: 175px;
-  border-radius: 5px;
-  float: left;
 }
 
 .txt{
