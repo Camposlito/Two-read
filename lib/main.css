@@ -369,3 +369,17 @@ textarea.form-control{
     letter-spacing: 8px;
     margin-bottom: -40px;
   }
+}
+
+.config-new{
+  float: left;
+}
+
+ul.nav.nav-pills.nav-stacked{
+  width: 200px;
+
+}
+
+.main{
+  padding-left: 100px
+}
