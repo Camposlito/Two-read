@@ -376,8 +376,40 @@ textarea.form-control{
 }
 
 ul.nav.nav-pills.nav-stacked{
-  width: 200px;
+  width: 240px;
+  background-color: gray;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 6px;
+  font-size: 17px;
+  font-weight: 500;
+}
 
+ul.nav.nav-pills.nav-stacked a{
+  color: #ddd;
+  border-radius: 0;
+}
+
+ul.nav.nav-pills.nav-stacked li.active a{
+  background-color: black;
+  color: white;
+}
+
+ul.nav.nav-pills.nav-stacked li.active a::before{
+content: "";
+background-color: black;
+display: block;
+position: absolute;
+right: -14px;
+top: 50%;
+margin-top: -14px;
+width: 28px;
+height: 28px;
+transform: rotateY(-45deg) rotate(45deg);
+}
+
+ul.nav.nav-pills.nav-stacked a:hover{
+  background-color: gray;
 }
 
 .main{

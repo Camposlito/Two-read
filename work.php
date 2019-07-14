@@ -13,10 +13,10 @@ function loginProfile($status){
     echo '<span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true" style="font-size: 20px; margin-right: 7px"></span> ';
     echo '<span class="caret"></span></a>';
     echo '<ul class="dropdown-menu">';
-    echo '<li><a href="content.php?_location=main"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> &nbsp; Início</a></li>';
-    echo '<li><a href="content.php?_location=profile"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> &nbsp; Perfil</a></li>';
-    echo '<li role="separator" class="divider"></li>';
+    echo '<li><a href="content.php?_location=main"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> &nbsp; Página inicial</a></li>';
+    echo '<li><a href="content.php?_location=profile"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> &nbsp; Meus Textos</a></li>';
     echo '<li><a href="content.php?_location=settings&erro=null"><span class="glyphicon glyphicon-cog" aria-hidden="true"></span> &nbsp; Configurações</a></li>';
+    echo '<li role="separator" class="divider"></li>';
     echo '<li><a href="index.php"><span class="glyphicon glyphicon-log-out" aria-hidden="true"></span> &nbsp; Sair</a></li> </ul> </li>';
   }else{
     echo '<li id="navcon"><a href="content.php?_location=login&erro=null"><span class="glyphicon glyphicon-log-in" aria-hidden="true" style="font-size: 20px; margin-right: 7px"></span> Entrar</a></li>';

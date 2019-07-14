@@ -3,7 +3,7 @@
     <h1>&nbsp;&nbsp;<span class="glyphicon glyphicon-user" aria-hidden="true"></span> <small><i>&nbsp;&nbsp;<?php echo $_SESSION["nome_user"]; ?></i></small> </h1>
   </div>
   <br>
-  <h2><span class="glyphicon glyphicon-book" aria-hidden="true"></span>&nbsp;&nbsp;Seus Textos:</h2>
+  <h2><span class="glyphicon glyphicon-book" aria-hidden="true"></span>&nbsp;&nbsp;Meus Textos:</h2>
   <br>
   <div id="textos">
     <?php divTextos($_SESSION["id_user"]); ?>
