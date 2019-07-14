@@ -4,9 +4,9 @@
   </div>
   <br><br><br>
   <ul class="nav nav-pills nav-stacked config-new">
-    <li role="presentation" class="pill active"><a href="#"> &nbsp; Minha Conta</a></li>
-    <li role="presentation" class="pill"><a href="#"> &nbsp; Alterar E-mail</a></li>
-    <li role="presentation" class="pill"><a href="#"> &nbsp; Alterar Senha</a></li>
+    <li role="presentation" class="pill active"><a href="#"> <span class="glyphicon glyphicon-user" aria-hidden="true"></span>&nbsp; Minha Conta</a></li>
+    <li role="presentation" class="pill"><a href="#"> <span class="glyphicon glyphicon-credit-card" aria-hidden="true"></span>&nbsp; Alterar E-mail &nbsp; </a></li>
+    <li role="presentation" class="pill"><a href="#"> <span class="glyphicon glyphicon-lock" aria-hidden="true"></span>&nbsp; Alterar Senha</a></li>
   </ul>
 
   <div class="main config-new">

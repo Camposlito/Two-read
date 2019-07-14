@@ -415,3 +415,13 @@ ul.nav.nav-pills.nav-stacked a:hover{
 .main{
   padding-left: 100px
 }
+
+.dropdown-menu{
+  background-color: #ddd;
+}
+
+.dropdown-menu li a{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 15px;
+}
