@@ -16,11 +16,11 @@ body {
   border-radius: 5px;
 }
 
-#navbrand{
+.navbar-brand{
   transition:all 0.35s ease;
 }
 
-#navbrand:hover{
+.navbar-brand:hover{
   box-shadow: inset 0px 12px 0px #fff;
 }
 
@@ -45,13 +45,6 @@ b#icone{
   cursor: pointer;
   padding-top: 3px;
 }
-
-#olho-config{
-  font-size: 23px;
-  cursor: pointer;
-  padding-top: 9px;
-}
-
 
 .txtimg{
   width: 175px;
@@ -198,7 +191,9 @@ b#icone{
 .block-white{
   background-color: white;
   margin-bottom: 0;
-  height: 200px;
+  height: 300px;
+  position: relative;
+  opacity: 0;
 }
 
 .btn{
@@ -263,22 +258,6 @@ b#icone{
 .bar-l{
   padding: 10px;
   border-left: 5px solid  silver;
-}
-
-.config{
-  border: 1px solid gray;
-  border-radius: 5px;
-  padding: 15px;
-  background-color: #f2f2f2;
-}
-
-.divider{
-  border-bottom: 1px solid gray;
-}
-
-.input-config{
-  border: #f2f2f2;
-  background-color: #f2f2f2;
 }
 
 h5{
@@ -377,7 +356,7 @@ textarea.form-control{
 
 ul.nav.nav-pills.nav-stacked{
   width: 240px;
-  background-color: gray;
+  background-color: #666;
   padding-top: 10px;
   padding-bottom: 10px;
   border-radius: 6px;
@@ -409,7 +388,7 @@ transform: rotateY(-45deg) rotate(45deg);
 }
 
 ul.nav.nav-pills.nav-stacked a:hover{
-  background-color: gray;
+  background-color: #666;
 }
 
 .main{
@@ -421,9 +400,41 @@ ul.nav.nav-pills.nav-stacked a:hover{
 }
 
 .dropdown-menu li a{
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   font-size: 15px;
+}
+
+.meus-textos{
+  width: 100%;
+  height: 280px;
+  background-color: rgb(34, 34, 34);
+  color: white;
+  padding-top: 75px;
+  margin-top: 0
+}
+
+.text-perfil{
+  border-left: solid silver 5px;
+  padding-left: 7px;
+  color: white;
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.text-perfil-span{
+  font-size: 45px;
+  padding-right: 20px;
+  margin-left: 250px;
+}
+
+.user-name-perfil{
+  margin-left: 380px;
+}
+
+.user-name-perfil span{
+  color: gray;
 }
 
 .config-conta{
@@ -448,4 +459,9 @@ ul.nav.nav-pills.nav-stacked a:hover{
   font-size: 45px;
   padding-right: 20px;
   margin-left: 250px;
+}
+
+.email-header{
+  color: gray;
+  font-size: 25px;
 }

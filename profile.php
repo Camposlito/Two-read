@@ -1,10 +1,11 @@
+<div class="meus-textos">
+  <span class="glyphicon glyphicon-book text-perfil-span" aria-hidden="true"></span>
+  <span class="text-perfil"> &nbsp;Textos</span>
+  <br><br><br><br>
+  <h1 class="user-name-perfil"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> <small>&nbsp;&nbsp;<?php echo $_SESSION["nome_user"]; ?></small></h1>
+</div>
 <div class="container">
-  <div class="page-header">
-    <h1>&nbsp;&nbsp;<span class="glyphicon glyphicon-user" aria-hidden="true"></span> <small><i>&nbsp;&nbsp;<?php echo $_SESSION["nome_user"]; ?></i></small> </h1>
-  </div>
-  <br>
-  <h2><span class="glyphicon glyphicon-book" aria-hidden="true"></span>&nbsp;&nbsp;Meus Textos:</h2>
-  <br>
+  <br><br>
   <div id="textos">
     <?php divTextos($_SESSION["id_user"]); ?>
   </div>
@@ -13,8 +14,8 @@
       <span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span> Novo Texto
     </button>
   </div>
-  <div class="block-white">  </div>
 </div>
+<div class="block-white">  </div>
 <!-- modal add txt -->
 <div class="modal fade" id="addTxt" tabindex="-1" role="dialog" aria-labelledby="addTextModalLabel">
   <div class="modal-dialog" role="document">

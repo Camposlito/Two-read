@@ -13,7 +13,7 @@
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
-          <a title="Início" id="navbrand" class="navbar-brand" href="content.php?_location=main"> <img src="lib/2R.png" alt="icone" width="45" height="45"> </a>
+          <a class="navbar-brand" href="content.php?_location=main"> <img src="lib/2R.png" alt="icone" width="45" height="45"> </a>
         </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav navbar-right">
