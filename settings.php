@@ -1,6 +1,10 @@
+<div class=" config-conta">
+  <span class="glyphicon glyphicon-cog rotate text-config-span" aria-hidden="true"></span>
+  <span class="text-config">Configurações da Conta</span>
+</div>
 <div class="container">
   <div class="page-header">
-    <h1><span class="glyphicon glyphicon-cog rotate" aria-hidden="true"></span> Configurações da Conta</h1>
+    <h1><span class="glyphicon glyphicon-user" aria-hidden="true"></span> &nbsp; <?php echo $_SESSION["nome_user"]; ?> &nbsp; • &nbsp; <?php echo $_SESSION["email"]; ?></h1>
   </div>
   <br><br><br>
   <ul class="nav nav-pills nav-stacked config-new">

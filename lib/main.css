@@ -425,3 +425,27 @@ ul.nav.nav-pills.nav-stacked a:hover{
   padding-bottom: 20px;
   font-size: 15px;
 }
+
+.config-conta{
+  width: 100%;
+  height: 280px;
+  background-color: rgb(34, 34, 34);
+  color: white;
+  padding-top: 75px;
+  margin-top: 0
+}
+
+.text-config{
+  border-left: solid silver 5px;
+  padding-left: 7px;
+  color: white;
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.text-config-span{
+  font-size: 45px;
+  padding-right: 20px;
+  margin-left: 250px;
+}

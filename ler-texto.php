@@ -8,11 +8,11 @@ $text_en = mostrarTxt($id_txt, "en");
     <div class="row">
       <div class="col-sm-6">
         <a href="content.php?_location=profile">
-          <button type="button" class="btn-gt" onmouseover="bigImg('btn-arrow')" onmouseout="normalImg('btn-arrow')"><span class="glyphicon glyphicon-menu-left" aria-hidden="true" id="btn-arrow"></span> &nbsp; Voltar</button>
+          <button type="button" class="btn-gt" onmouseover="bigImg('btn-arrow')" onmouseout="normalImg('btn-arrow')"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true" id="btn-arrow"></span> &nbsp; Voltar</button>
         </a>
       </div>
       <div class="col-sm-6 text-right">
-        <button data-toggle="modal" data-target="#editar" type="button" class="btn btn-primary" onmouseover="bigImg('btn-pencil')" onmouseout="normalImg('btn-pencil')">Editar &nbsp; <span class="glyphicon glyphicon-pencil" aria-hidden="true" id="btn-pencil"></span></button>
+        <button data-toggle="modal" data-target="#editar" type="button" class="btn btn-primary" onmouseover="bigImg('btn-pencil')" onmouseout="normalImg('btn-pencil')">Editar &nbsp; <span class="glyphicon glyphicon-edit" aria-hidden="true" id="btn-pencil"></span></button>
       </div>
     </div>
     <div class="row">

@@ -52,7 +52,7 @@
   <br><br><br><br><br><br><br><br><br><br>
   <div class="row text-center">
     <a href= <?php btnVerTexto($_SESSION['status']); ?>>
-      <button type="button" class="btn-gt" onmouseover="bigImg('btn-arrow')" onmouseout="normalImg('btn-arrow')">Ver Textos  <span class="glyphicon glyphicon-menu-right " aria-hidden="true" id="btn-arrow"></span></button>
+      <button type="button" class="btn-gt" onmouseover="bigImg('btn-arrow')" onmouseout="normalImg('btn-arrow')">Ver Textos  <span class="glyphicon glyphicon-chevron-right " aria-hidden="true" id="btn-arrow"></span></button>
     </a>
   </div>
 </div>
