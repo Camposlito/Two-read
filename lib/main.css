@@ -271,11 +271,12 @@ h5{
   margin-top: 1%;
   background-color: #e74c3c;
   color: black;
-  font-size: 16px;
+  font-size: 18px;
+  font-weight: 700;
 }
 
 .erro-icon{
-  font-size: 19px;
+  font-size: 22px;
 }
 
 .text-intro{
@@ -348,10 +349,6 @@ textarea.form-control{
     letter-spacing: 8px;
     margin-bottom: -40px;
   }
-}
-
-.config-new{
-  float: left;
 }
 
 ul.nav.nav-pills.nav-stacked{
@@ -431,7 +428,6 @@ ul.nav.nav-pills.nav-stacked a:hover{
 
 .user-name-perfil{
   margin-left: 380px;
-  teste
 }
 
 .user-name-perfil span{
@@ -465,4 +461,51 @@ ul.nav.nav-pills.nav-stacked a:hover{
 .email-header{
   color: gray;
   font-size: 25px;
+}
+
+
+.config-new{
+  float: left;
+}
+
+.main.config-new form{
+  margin-top: 50px;
+}
+
+.main.config-new span{
+  font-size: 40px;
+  border-bottom: 6px solid;
+  padding: 13px 0;
+}
+
+.main.config-new input{
+  border: none;
+  outline: none;
+  background: none;
+  color: black;
+  font-size: 18px;
+  float: left;
+  margin: 0 10px;
+  width: 60%;
+  border-bottom: 1px solid;
+  padding: 8px 0;
+  margin-bottom: 15px;
+}
+
+.btn-salvar-alt{
+  padding: 12px;
+  border-radius: 5px;
+  border: none;
+  background-color: #7BC142;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-left: 350px;
+  transition: 0.35s;
+}
+
+.erro-config{
+  position: absolute;
+  margin-left: 45%;
 }
