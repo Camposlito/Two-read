@@ -350,6 +350,10 @@ h5{
   background: #ddd;
 }
 
+.form-control:focus{
+  box-shadow: none;
+}
+
 textarea.form-control{
   resize: none;
 }
@@ -533,4 +537,38 @@ ul.nav.nav-pills.nav-stacked a:hover{
 .erro-config{
   position: absolute;
   margin-left: 45%;
+}
+
+.erro-forgot-pass{
+  margin-top: 50px;
+  float: left;
+}
+
+.forgot-title{
+  margin-top: 35px;
+  font-size: 30px;
+}
+
+.forgot-txt{
+  margin-top: 14px;
+  font-size: 14px;
+  color: gray;
+  max-width: 40%;
+}
+
+.input-group{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 40%;
+}
+
+.btn-enviar-email{
+  padding: 12px;
+  border-radius: 5px;
+  border: none;
+  background-color: #7BC142;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  transition: 0.35s;
 }

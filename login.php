@@ -72,7 +72,7 @@ $_SESSION['status'] = false;
  <ul class="ul-list">
  <li><input id="email" name="email" type="email" required class="input" placeholder="Seu Email"/><span class="icon"> <b id="icone">@</b> </span></li>
  <li><input id="senha" name="senha" type="password" required class="input" placeholder="Senha"/><span class="icon" id="olho"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span></span></li>
- <li> <a href="#">Esqueceu a senha?</a> </li>
+ <li> <a href="content.php?_location=forgot-pass&erro=null">Esqueci a senha</a> </li>
  <br><br><br><br>
  <li><input type="submit" value="ENTRAR" class="btn"></li>
  </ul>

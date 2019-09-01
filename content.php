@@ -24,6 +24,10 @@ function mainContent(){
       include "ler-texto.php";
       break;
 
+    case 'forgot-pass':
+      include "forgot-pass.php";
+      break;
+
     default:
       //
       break;
