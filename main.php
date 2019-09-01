@@ -41,7 +41,7 @@
       <img class="" src="lib/icons/comunicação.png" alt="comunicação">
     </div>
     <div class="col-sm-6 pd-top">
-      <h3 class="bar-l fr text-intro">Nossa plataforma permite que você desenvolva seu aprendizado em um idioma estrangeiro ao mesmo tempo que lê seus textos favoritos.</h3>
+      <h3 class="bar-l fr text-intro">Nossa plataforma permite que você desenvolva seu aprendizado em um idioma estrangeiro ao mesmo tempo que lê seus textos favoritos. Ao adicionar um texto ele será automaticamente traduzido e posto lado a lado junto ao original para uma leitura dinâmica</h3>
     </div>
   </div>
   <br><br><br>

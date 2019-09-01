@@ -52,6 +52,21 @@ b#icone{
   border-radius: 5px;
 }
 
+.file{
+  margin-top: 10px;
+  font-size: 150px;
+  color: white;
+}
+
+.text-file{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  color: rgba(0, 0, 0, .2);
+}
+
 .txt{
   position: relative;
   float: left;

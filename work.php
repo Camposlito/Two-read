@@ -90,7 +90,7 @@ function divTextos($id_user){
       echo '        <button type="submit" class="namebox"> ';
       echo '          <div class="txtimg" style="background-color: ';
       echo random_color();
-      echo '"></div> ';
+      echo '"><span class="glyphicon glyphicon-file file" aria-hidden="true"></span><span class="glyphicon glyphicon-align-left text-file" aria-hidden="true"></span></div> ';
       echo $row["nome_txt"];
       echo '        </button> ';
       echo '      </form> ';
