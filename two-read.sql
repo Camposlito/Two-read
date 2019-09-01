@@ -11,7 +11,7 @@ CREATE TABLE `usuario` (
 
 CREATE TABLE `textos` (
   `id_txt` integer NOT NULL PRIMARY KEY AUTO_INCREMENT,
-  `nome_txt` varchar(50) NOT NULL,
+  `nome_txt` varchar(36) NOT NULL,
   `txt` text NOT NULL,
   `id_user` integer NOT NULL,
   `txt_eng` text NOT NULL

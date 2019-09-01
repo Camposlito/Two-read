@@ -64,13 +64,16 @@ b#icone{
   position: relative;
   text-align: center;
   float: left;
-  border: solid white 1px;
+  border: solid rgba(0, 0, 0, .0) 1px;
   border-radius: 5px;
   -webkit-transition: border-color 0.3s;
   transition: border-color 0.3s;
-  background-color: white;
+  background-color: rgba(0, 0, 0, .0);
   color: black;
   font-weight: bold;
+  max-width: 197px;
+  max-height: 227px;
+  min-height: 227px;
 }
 
 .namebox:hover{
@@ -488,8 +491,15 @@ ul.nav.nav-pills.nav-stacked a:hover{
   margin: 0 10px;
   width: 60%;
   border-bottom: 1px solid;
-  padding: 8px 0;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  padding: 8px;
   margin-bottom: 15px;
+  transition: all .25s ease-out
+}
+
+.main.config-new input:focus{
+  background-color: #dddddd;
 }
 
 .btn-salvar-alt{

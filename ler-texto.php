@@ -44,7 +44,7 @@ $text_en = mostrarTxt($id_txt, "en");
           <input type="hidden" name="id_txt" id="id_txt" value="<?php echo $id_txt; ?>">
           <div class="form-group">
             <label for="nome" class="control-label">Nome do texto*</label>
-            <input type="text" class="form-control" id="nome" name="nome" value="<?php echo getNomeTxt($id_txt); ?>">
+            <input type="text" maxlength="36" class="form-control" id="nome" name="nome" value="<?php echo getNomeTxt($id_txt); ?>">
           </div>
           <div class="form-group">
             <label for="txt" class="control-label">Texto</label>

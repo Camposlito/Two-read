@@ -29,7 +29,7 @@
           <input type="hidden" name="id_user" id="id_user" value="<?php echo $_SESSION["id_user"]; ?>">
           <div class="form-group">
             <label for="nome" class="control-label">Nome do texto*</label>
-            <input type="text" class="form-control bold" id="nome" name="nome" placeholder="">
+            <input type="text" maxlength="36" class="form-control bold" id="nome" name="nome" placeholder="">
           </div>
           <div class="form-group">
             <label for="txt" class="control-label">Texto*</label>
