@@ -54,16 +54,16 @@ b#icone{
 
 .file{
   margin-top: 10px;
-  font-size: 150px;
-  color: white;
+  font-size: 165px;
+  color: rgba(0, 0, 0, .3);
 }
 
 .text-file{
   position: absolute;
   left: 50%;
-  top: 50%;
+  top: 55%;
   transform: translate(-50%, -50%);
-  font-size: 50px;
+  font-size: 60px;
   color: rgba(0, 0, 0, .2);
 }
 

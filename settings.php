@@ -63,7 +63,7 @@
       <input type="hidden" name="r-nova-senha" value="<?php echo $_SESSION["senha"]; ?>">
       <input type="hidden" name="nome" value="<?php echo $_SESSION["nome_user"]; ?>">
       <div class="row">
-        <input type="text" placeholder="E-mail" name="email" value="<?php echo $_SESSION["email"]; ?>">
+        <input type="email" placeholder="E-mail" name="email" value="<?php echo $_SESSION["email"]; ?>">
       </div>
       <div class="row">
         <input type="password" placeholder="Senha" name="senha" value="">
