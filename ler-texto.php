@@ -51,6 +51,13 @@ $text_en = mostrarTxt($id_txt, "en");
             <textarea class="form-control" id="txt" name="txt" rows="20"> <?php echo $text; ?> </textarea>
           </div>
           <div class="modal-footer">
+            <div class="dropdown-language">
+              <span>traduzir para</span>
+              <select class="btn" name="lang" id="lang">
+                <option value="en">INGLÊS</option>
+                <option value="pt-br">PORTUGUÊS</option>
+              </select>
+            </div>
             <button type="submit" class="btn btn-success">Salvar</button>
             <button onclick="clearbox(1)" type="button" class="btn btn-danger" data-dismiss="modal">Cancelar</button>
           </div>

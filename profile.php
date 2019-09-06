@@ -36,6 +36,13 @@
             <textarea class="form-control" id="txt" name="txt" rows="10" placeholder="..."></textarea>
           </div>
           <div class="modal-footer">
+            <div class="dropdown-language">
+              <span>traduzir para</span>
+              <select class="btn" name="lang" id="lang">
+                <option value="en">INGLÊS</option>
+                <option value="pt-br">PORTUGUÊS</option>
+              </select>
+            </div>
             <button type="submit" class="btn btn-success"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> &nbsp; Adicionar</button>
             <button onclick="clearbox(1)" type="button" class="btn btn-danger" data-dismiss="modal"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span> &nbsp; Cancelar</button>
           </div>

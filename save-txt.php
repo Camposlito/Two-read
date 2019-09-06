@@ -7,8 +7,13 @@ $id_txt = $_POST["id_txt"];
 $nome = $_POST["nome"];
 $txt = $_POST["txt"];
 
-$source = 'pt-br';
-$target = 'en';
+if ($_POST["lang"] == "en") {
+  $source = 'pt-br';
+  $target = 'en';
+}else{
+  $source = 'en';
+  $target = 'pt-br';
+}
 
 $trans = new GoogleTranslate();
 $result = $trans->translate($source, $target, $txt);

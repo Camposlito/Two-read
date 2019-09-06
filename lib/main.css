@@ -170,6 +170,42 @@ b#icone{
   border-radius: 5px;
 }
 
+.dropdown-language{
+  position: absolute;
+  margin-left: 0;
+  margin-top: 10px;
+}
+
+.dropdown-language span{
+  font-size: 10px;
+}
+
+.dropdown-language select{
+  padding: 10px 10px 10px 3px;
+  border: 1px solid black;
+  border-radius: 3px;
+  color: black;
+  font-size: 12px;
+  font-weight: 400;
+  background-color: white;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: '';
+}
+
+.dropdown-language select:hover{
+  color: white;
+  background-color: black;
+}
+
+.dropdown-language option{
+  display: block;
+  padding: 11px 15px;
+  color: inherit;
+  white-space: nowrap;
+}
+
 .btn-gt{
   background-color: #4A4A4A;
   border: 1px solid #4a4a4a;
