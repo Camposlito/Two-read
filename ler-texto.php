@@ -47,7 +47,7 @@ $text_en = mostrarTxt($id_txt, "en");
             <input type="text" maxlength="36" class="form-control" id="nome" name="nome" value="<?php echo getNomeTxt($id_txt); ?>">
           </div>
           <div class="form-group">
-            <label for="txt" class="control-label">Texto</label>
+            <label for="txt" class="control-label">Texto*</label>
             <textarea class="form-control" id="txt" name="txt" rows="20"> <?php echo $text; ?> </textarea>
           </div>
           <div class="modal-footer">

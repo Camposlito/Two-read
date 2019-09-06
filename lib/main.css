@@ -392,6 +392,7 @@ h5{
 
 textarea.form-control{
   resize: none;
+  font-size: 18px;
 }
 
 @keyframes text {
