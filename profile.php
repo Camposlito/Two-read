@@ -7,7 +7,11 @@
 <div class="container">
   <br><br>
   <div id="textos">
-    <?php divTextos($_SESSION["id_user"]); ?>
+    <h1 class="page-header">Todos(<?php contTxtAll($_SESSION["id_user"]) ?>)</h1>
+    <?php
+    divTextos($_SESSION["id_user"]);
+
+    ?>
   </div>
   <div id="newbtn">
     <button type="button" class="btn btn-default btn-lg" id="btnplus" data-toggle="modal" data-target="#addTxt">

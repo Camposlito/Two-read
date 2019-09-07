@@ -156,4 +156,12 @@ function mostrarTxt($id_txt, $lang){
   }
   return $texto;
 }
+function contTxtAll($id_user){
+  $sql = "SELECT * FROM textos where id_user = '$id_user'";
+  $conn = getConnection();
+  $resultado = $conn->query($sql);
+  echo (int) $resultado->rowCount();
+  $conn = null;
+}
+
 ?>
