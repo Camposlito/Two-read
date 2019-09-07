@@ -1,7 +1,7 @@
 <?php
 $id_txt = $_POST["id_txt"];
-$text = mostrarTxt($id_txt, "pt");
-$text_en = mostrarTxt($id_txt, "en");
+$text = mostrarTxt($id_txt, "original");
+$text_trans = mostrarTxt($id_txt, "traduzido");
  ?>
 <div class="container">
   <div class="page-header">
@@ -26,7 +26,7 @@ $text_en = mostrarTxt($id_txt, "en");
     </div>
     <div class="col-sm-6 text-left">
       <h2>Traduzido</h2>
-      <h4 class="pre"> <?php echo $text_en; ?> </h4>
+      <h4 class="pre"> <?php echo $text_trans; ?> </h4>
     </div>
   </div>
   <div class="block-white">  </div>

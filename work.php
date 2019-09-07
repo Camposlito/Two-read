@@ -107,7 +107,7 @@ function novotxt($nome_txt, $txt, $id_user, $result){
     "txt" => $txt,
     "nome_txt" => $nome_txt,
     "id_user" => $id_user,
-    "txt_eng" => $result
+    "txt_trans" => $result
   );
   sqlInsert("textos", $dados);
 }
@@ -115,7 +115,7 @@ function savetxt($nome, $txt, $result, $id_txt){
   $dados = array(
     "nome_txt" => $nome,
     "txt" => $txt,
-    "txt_eng" => $result
+    "txt_trans" => $result
   );
   $key = array(
     "id_txt" => $id_txt
@@ -148,11 +148,11 @@ function mostrarTxt($id_txt, $lang){
   );
   $row = sqlSelectFirst("textos", $dado);
   $texto = "ERRO: IDIOMA NÃO ESPECIFICADO";
-  if ($lang == "pt") {
+  if ($lang == "original") {
     $texto = $row["txt"];
   }
-  if ($lang == "en") {
-    $texto = $row["txt_eng"];
+  if ($lang == "traduzido") {
+    $texto = $row["txt_trans"];
   }
   return $texto;
 }

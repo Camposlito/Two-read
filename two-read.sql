@@ -14,5 +14,5 @@ CREATE TABLE `textos` (
   `nome_txt` varchar(36) NOT NULL,
   `txt` text NOT NULL,
   `id_user` integer NOT NULL,
-  `txt_eng` text NOT NULL
+  `txt_trans` text NOT NULL
 );
