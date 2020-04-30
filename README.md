@@ -8,7 +8,7 @@ Site desenvolvido para meu projeto final do ensino médio/técnico de informáti
 
 ## Página inicial
 
-<img src="lib/prints/home.png" width="210" height="210">
+<img src="lib/prints/home.png" width="640" height="360">
 
 ## Login e cadastro
 
