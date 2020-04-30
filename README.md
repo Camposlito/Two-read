@@ -1,4 +1,4 @@
-<div style="width: 100%">
+<div style="width: 100%; margin-left: 50%">
 <img src="lib/2R.png" alt="icone" width="210" height="210">
 <div/>
 
