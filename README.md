@@ -18,6 +18,3 @@ Como ainda não está em nenhum servidor online, é precisso ter algum servidor 
   <li>https://github.com/spatie/pdf-to-text
   <li>https://github.com/statickidz/php-google-translate-free
 <ul/>
-"# Two-read-v2" 
-"# Two-read-v2" 
-"# Two-read-v2" 
