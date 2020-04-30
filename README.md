@@ -1,10 +1,30 @@
-<div style="width: 100%; margin-left: 50%">
+<div style="width: 100%">
 <img src="lib/2R.png" alt="icone" width="210" height="210">
 <div/>
 
 # Sobre
 
 Site desenvolvido para meu projeto final do ensino médio/técnico de informática do CEFET. Este que, possui a finalidade de aprender outros idiomas através da leitura e contexto.
+
+## Página inicial
+
+<img src="lib/prints/home.png" width="210" height="210">
+
+## Login e cadastro
+
+<img src="lib/prints/login.png" width="210" height="210">
+
+## Textos do usuário
+
+<img src="lib/prints/textos.png" width="210" height="210">
+
+## Texto exemplo
+
+<img src="lib/prints/exemplo.png" width="210" height="210">
+
+## Configurações
+
+<img src="lib/prints/config.png" width="210" height="210">
 
 # Como usar
 
