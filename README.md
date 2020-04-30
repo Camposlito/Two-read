@@ -12,19 +12,19 @@ Site desenvolvido para meu projeto final do ensino médio/técnico de informáti
 
 ## Login e cadastro
 
-<img src="lib/prints/login.png" width="210" height="210">
+<img src="lib/prints/login.png" width="640" height="360">
 
 ## Textos do usuário
 
-<img src="lib/prints/textos.png" width="210" height="210">
+<img src="lib/prints/textos.png" width="640" height="360">
 
 ## Texto exemplo
 
-<img src="lib/prints/exemplo.png" width="210" height="210">
+<img src="lib/prints/exemplo.png" width="640" height="360">
 
 ## Configurações
 
-<img src="lib/prints/config.png" width="210" height="210">
+<img src="lib/prints/config.png" width="640" height="360">
 
 # Como usar
 
