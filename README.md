@@ -28,8 +28,8 @@ Site desenvolvido para meu projeto final do ensino médio/técnico de informáti
 
 # Como usar
 
-Por ainda estar em desenvolvimento é necessário modificar algumas variáveis no arquivo two-read/lib/config.php, mais precisamente o 'APP_PREFIX'  .
-Como ainda não está em nenhum servidor online, é precisso ter algum servidor web local, pois é feio em PHP.
+É necessário modificar algumas variáveis no arquivo two-read/lib/config.php, mais precisamente o 'APP_PREFIX'  .
+Como ainda não está em nenhum servidor online, é precisso ter algum servidor web local, pois é feito em PHP.
 
 # Links amigos
 
